@@ -127,6 +127,7 @@ body {
 .header-link:focus,
 .highlighted {
   color: var(--accent-color);
+  outline: none;
 }
 .highlighted {
   position: relative;
@@ -186,6 +187,7 @@ body {
 .hero-btn:focus,
 .hero-btn:hover {
   background-color: #188ce8;
+  outline: none;
 }
 .section {
   padding-top: 94px;
@@ -344,6 +346,7 @@ body {
 .clients-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
+  outline: none;
 }
 .clients-icon {
   fill: currentColor;
@@ -376,6 +379,7 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+  outline: none;
 }
 .footer-title {
   font-weight: 700;
@@ -404,6 +408,7 @@ body {
 .social-link:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+  outline: none;
 }
 .footer-social-icon {
   fill: currentColor;
@@ -423,10 +428,12 @@ body {
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
+  transition: border-color var(--transition);
 }
 .input-email:focus,
 .input-email:hover {
   border-color: var(--accent-color);
+  outline: none;
 }
 .btn-footer {
   font-weight: 700;
@@ -443,10 +450,12 @@ body {
   align-items: center;
   justify-content: center;
   border: none;
+  transition: background-color var(--transition);
 }
 .btn-footer:focus,
 .btn-footer:hover {
   background-color: #188ce8;
+  outline: none;
 }
 .footer-email {
   align-content: flex-end;
@@ -485,6 +494,7 @@ body {
 .portfolio-link-example:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
 }
 .portfolio-btn {
   font-weight: 500;
@@ -506,6 +516,7 @@ body {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  outline: none;
 }
 .portfolio-caption {
   padding: 20px 24px;
@@ -603,6 +614,7 @@ body {
 .modal-btn:hover,
 .modal-btn:focus {
   color: var(--accent-color);
+  outline: none;
 }
 .modal-title {
   font-weight: 700;
@@ -663,10 +675,12 @@ input {
 .modal-item:focus,
 .modal-item:hover {
   border-color: var(--accent-color);
+  outline: none;
 }
 .modal-item:focus + .input-icon,
 .modal-item:hover + .input-icon {
   fill: var(--accent-color);
+  outline: none;
 }
 .checkbox-text {
   line-height: calc(24 / 14);
@@ -699,6 +713,7 @@ input {
 .checkbox:hover + .checkbox-text::before,
 .checkbox:focus + .checkbox-text::before {
   border: 2px solid var(--accent-color);
+  outline: none;
 }
 .center-btn {
   text-align: center;
